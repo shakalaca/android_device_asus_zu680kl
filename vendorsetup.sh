@@ -1,0 +1,4 @@
+add_lunch_combo omni_zu680kl-userdebug
+add_lunch_combo omni_zu680kl-eng
+add_lunch_combo full_zu680kl-userdebug
+add_lunch_combo full_zu680kl-eng
