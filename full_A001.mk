@@ -22,13 +22,13 @@
 #
 
 # Inherit specific vendor tree
-$(call inherit-product-if-exists, vendor/asus/zu680kl/zu680kl-vendor.mk)
+$(call inherit-product-if-exists, vendor/asus/A001/A001-vendor.mk)
 
 # Inherit from m8
-$(call inherit-product, device/asus/zu680kl/device.mk)
+$(call inherit-product, device/asus/A001/device.mk)
 
-PRODUCT_NAME := full_zu680kl
-PRODUCT_DEVICE := zu680kl
+PRODUCT_NAME := full_A001
+PRODUCT_DEVICE := A001
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := ASUS_A001

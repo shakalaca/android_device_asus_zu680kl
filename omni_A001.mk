@@ -1,8 +1,8 @@
 # Inherit device configuration
-$(call inherit-product, device/asus/zu680kl/device.mk)
+$(call inherit-product, device/asus/A001/device.mk)
 
-PRODUCT_NAME := omni_zu680kl
-PRODUCT_DEVICE := zu680kl
+PRODUCT_NAME := omni_A001
+PRODUCT_DEVICE := A001
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := ASUS_A001

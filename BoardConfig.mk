@@ -22,11 +22,12 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_USES_64_BIT_BINDER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/asus/zu680kl/recovery/kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80008000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
+
+TARGET_PREBUILT_KERNEL := device/asus/A001/kernel
 
 TARGET_LDPRELOAD := libNimsWrap.so
 
@@ -66,4 +67,4 @@ TW_BRIGHTNESS_PATH := "/sys/devices/soc/900000.qcom\x2cmdss_mdp/900000.qcom\x2cm
 TW_MAX_BRIGHTNESS := 255
 
 TARGET_UNIFIED_DEVICE := true
-TARGET_SYSTEM_PROP := device/asus/zu680kl/system.prop
+TARGET_SYSTEM_PROP := device/asus/A001/system.prop
