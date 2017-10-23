@@ -22,10 +22,10 @@ TARGET_2ND_CPU_VARIANT := generic
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8
-BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 
+BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-BOARD_KERNEL_BASE := 0x80008000
+BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
 
