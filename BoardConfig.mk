@@ -31,9 +31,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
-#TARGET_KERNEL_CONFIG := msm-perf_defconfig
 TARGET_KERNEL_CONFIG := msm_defconfig
-TARGET_PREBUILT_KERNEL := device/asus/A001/kernel
+TARGET_KERNEL_SOURCE := kernel/asus/A001
 
 TARGET_LDPRELOAD := libNimsWrap.so
 
